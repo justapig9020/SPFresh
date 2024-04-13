@@ -4,6 +4,7 @@
 #ifndef _SPTAG_COMMON_BKTREE_H_
 #define _SPTAG_COMMON_BKTREE_H_
 
+#include <mutex>
 #include <stack>
 #include <string>
 #include <vector>

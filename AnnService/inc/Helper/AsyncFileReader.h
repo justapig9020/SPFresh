@@ -522,7 +522,7 @@ namespace SPTAG
                 std::uint32_t maxWriteRetries = 2,
                 std::uint16_t threadPoolSize = 4)
             {
-                m_fileHandle = open(filePath, O_RDONLY | O_DIRECT);
+                m_fileHandle = open(filePath, O_RDONLY);
                 if (m_fileHandle <= 0) {
                     LOG(LogLevel::LL_Error, "Failed to create file handle: %s\n", filePath);
                     return false;

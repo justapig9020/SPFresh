@@ -2,7 +2,7 @@
 
 # TODO: hyper parameters
 # Experiment parameters
-days=2
+days=10
 topk=10
 
 # Platform
@@ -24,6 +24,7 @@ full_vec="${data_path}/sift_data/sift200m_base.u8bin"
 update_trace="${data_path}/sift_data/sift100m_update_trace"
 tmp_path="${data_path}/tmp"
 result_path="${exp_root}/result_overall_spfresh"
+search_result="${result_path}/search_result"
 index_path="${project_root}/dataset/spann_index"
 script_path="${project_root}/Script_AE"
 
@@ -76,7 +77,7 @@ config=(
   "110 Days=${days}"
   "116 FullVectorPath=${full_vec}"
   "124 UpdateFilePrefix=${update_trace}"
-  "125 SearchResult=${result_path}"
+  "125 SearchResult=${search_result}"
   "129 EndVectorNum=${full_size}"
 )
 for item in "${config[@]}"; do

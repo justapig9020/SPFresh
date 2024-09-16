@@ -2,7 +2,7 @@
 
 # TODO: hyper parameters
 # Experiment parameters
-days=10
+days=100
 topk=10
 
 # Platform

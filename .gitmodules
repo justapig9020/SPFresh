@@ -3,7 +3,7 @@
 	url = https://github.com/facebook/zstd
 [submodule "ThirdParty/spdk"]
 	path = ThirdParty/spdk
-	url = https://github.com/spdk/spdk
+	url = https://github.com/justapig9020/spdk
 [submodule "ThirdParty/isal-l_crypto"]
 	path = ThirdParty/isal-l_crypto
 	url = https://github.com/intel/isa-l_crypto

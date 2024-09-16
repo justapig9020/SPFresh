@@ -14,9 +14,9 @@ if __name__ == "__main__":
     args = process_args()
 
     # Read topk vector one by one
-    vecs = ""
-    row_bin = "";
-    dim_bin = ""; 
+    vecs = b""
+    row_bin = b"";
+    dim_bin = b""; 
     with open(args.src, "rb") as f:
 
         row_bin = f.read(4)
